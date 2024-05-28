@@ -1,0 +1,259 @@
+body{
+    margin:0%;
+    font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    background-color: blue;
+    display: flex;
+    font-size: 10pt;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    height: 70px;
+    color: rgb(4, 4, 54);
+    box-shadow: 0px 3px 0px 0px rgb(4, 4, 54);
+
+}
+
+
+header img{
+    width: 40px;
+}
+
+
+.mainsection{
+display: flex;
+justify-content: space-around
+
+
+
+}
+.mainContainer{
+    margin-top: 30%;
+    width: 100%;
+
+    
+}
+
+
+
+.bigBtn{
+
+    
+    display: flex;
+    margin: 10px;
+}
+
+.bigBtn a{
+    width: 45%;
+    margin: 10px;
+    background-color: blue;
+    text-align: center;
+    border-radius: 15px;
+    color: white;
+    padding-top: 15px;
+    font-weight: bold;
+    font-size: 13pt;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+   
+}
+
+.bigBtn a:hover{
+    
+    background-color: rgb(4, 4, 54);
+    box-shadow: 2px 4px 2px 2px  gray;
+   
+}
+
+
+
+.bigBtn img{
+    width: 70px;
+}
+
+/* add student page styling...................... */
+
+main {
+    width: 100%;
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* header ends ///////////////////////// */
+  
+  /* content starts////////////////////// */
+  .content{ 
+      width: 100%;
+      margin-top: 30%;
+      text-align: center;
+      color: rgb(4, 4, 54);
+      margin-bottom: 30%;
+  }
+  
+  form {
+      width: 100%;
+      min-height:fit-content;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      row-gap: 20px;
+  }
+  form input{
+    width: 80%;
+    background-color: blue;
+    height: 30px;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    color: white;
+  }
+  form button{
+    width: 80%;
+    background-color:rgb(4, 4, 54) ;
+    color: white;
+    height: 40px;
+    border-radius: 10px;
+  }
+
+  form input::placeholder{
+    color: rgba(255, 255, 255, 0.774);
+  }
+
+  
+  form select{
+    width: 85%;
+    background-color: blue;
+    height: 50px;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    color: rgba(255, 255, 255, 0.774);
+
+  }
+
+ /* student page stylling........................... */
+.overallContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+.overallContainer a{
+    text-align: center;
+    border: 2px solid blue;
+    width: 30%;
+    border-radius: 20px;
+    text-decoration: none;
+    color: blue;
+}
+.overallContainer div h1{
+    font-size: 25pt;
+    font-weight: bold;
+}
+
+.overallContainer div h3{
+    font-size: 13pt;
+}
+
+.classListSection{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    
+    
+}
+.classListContainer{
+    width: 100%;
+    margin-top: 10%;
+}
+.classListContainer div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: blue;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    font-size: 17pt;
+}
+
+/* students tile list styling starts...................... */
+.lisTilesSection{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    
+ 
+   
+}
+.listTilesContainer{
+    width: 90%;
+}
+.tiles{
+    
+    margin-top: 10%;
+    border-radius: 10px;
+    border: 2px solid blue;
+    max-height: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.tiles img{
+    width: 90px;
+}
+
+/* full details styling starts.................... */
+.studentFullDetailSection{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.studentFullDetailContainer{
+    width: 90%;
+    text-align: center;
+    margin-bottom: 10%;
+    border: 3px solid blue;
+    padding: 10px;
+
+}
+.studentFullDetailContainer img{
+    width: 200px;
+
+}
+
+.details div{
+    background-color: blue;
+    height: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    margin-top: -10px;
+    font-size: 15pt;
+}
+
+/* login page styling start.............................. */
+.LogIn-section{
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+  
